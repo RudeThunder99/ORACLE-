@@ -30,4 +30,34 @@ I got that chance when my school declared the date (which is very soon) for the 
 
 <br> <br>
 
+## Bill Of Materials:
+
+| Name | Quantity | Total Cost (USD) | Link | Distributor |
+|------|----------|-----------------|------|-------------|
+| **BRAIN** | | | | |
+| ESP-32 WROOM | 1 | $4.81 | [RoboticsBD](https://store.roboticsbd.com/development-boards/2266-esp32-dev-board-ch340-usb-c-robotics-bangladesh.html) | RoboticsBD |
+| **SENSORS** | | | | |
+| Galvanic Skin Response (GSR) Sensor | 1 | $19.88 | [RoboticsBD](https://store.roboticsbd.com/sensors/2146-galvanic-skin-response-gsr-sensor-robotics-bangladesh.html) | RoboticsBD |
+| MAX30105 Particle Optical Sensor Module | 1 | $7.74 | [RoboticsBD](https://store.roboticsbd.com/sensors/812-high-accuracy-i2c-max30105-particle-optical-sensor-photodetectors-module-robotics-bangladesh.html) | RoboticsBD |
+| **POWER** | | | | |
+| 18650 Li-ion Rechargeable Battery | 3 | $2.20 | [RoboticsBD](https://store.roboticsbd.com/tools-accessories/2010-18650-li-ion-rechargeable-battery-blue-robotics-bangladesh.html) | RoboticsBD |
+| 18650 Battery Holder – 1 Cell | 3 | $0.98 | [RoboticsBD](https://store.roboticsbd.com/power-module-adapter/989-18650-battery-holder-1-cell-robotics-bangladesh.html) | RoboticsBD |
+| TP4056 Charging Module | 1 | $0.26 | [RoboticsBD](https://store.roboticsbd.com/robotics-parts/919-tp4056-lithium-battery-charger-module-with-protection-dual-functions-robotics-bangladesh.html) | RoboticsBD |
+| DC-DC Boost Module XL6009 | 1 | $0.68 | [RoboticsBD](https://store.roboticsbd.com/components/730-dc-dc-boost-module-xl6009-robotics-bangladesh.html) | RoboticsBD |
+| **OUTPUT** | | | | |
+| 8-bit WS2812B 5050 RGB LED Board | 3 | $3.67 | [RoboticsBD](https://store.roboticsbd.com/led-laser-module/2314-8-bit-ws2812b-5050-rgb-led-built-in-full-color-driver-development-board-straight-robotics-bangladesh.html) | RoboticsBD |
+| 1000UF 16V Capacitor | 3 | $0.27 | [RoboticsBD](https://store.roboticsbd.com/capacitor/4225-1000uf-25v-capacitor-robotics-bangladesh.html) | RoboticsBD |
+| **PROTOTYPING** | | | | |
+| Breadboard | 1 | $1.30 | [RoboticsBD](https://store.roboticsbd.com/components/133-breadboard-full-size-bare-830-tie-points-robotics-bangladesh.html) | RoboticsBD |
+| Male to Female Jumper Cables | 1 | $0.45 | [RoboticsBD](https://store.roboticsbd.com/cables-wire/2640-male-to-female-jumper-wires-20-pcs-20cm-robotics-bangladesh.html) | RoboticsBD |
+| Female to Female Jumper Wires | 1 | $0.45 | [RoboticsBD](https://store.roboticsbd.com/cables-wire/2641-female-to-female-jumper-wires-20-pcs-20cm-robotics-bangladesh.html) | RoboticsBD |
+| **ASSEMBLY TOOLS** | | | | |
+| Soldering Iron | 1 | $6.36 | [RoboticsBD](https://store.roboticsbd.com/soldering-accessories-robotics-bangladesh/3755-60w-adjustable-temperature-soldering-iron-200c-to-450c-precision-tool-robotics-bangladesh.html) | RoboticsBD |
+| Solder Flux Pen | 1 | $2.28 | [RoboticsBD](https://store.roboticsbd.com/tools-accessories/1160--10ml-soldering-flux-pen-robotics-bangladesh.html) | RoboticsBD |
+| Tin Soldering Lead | 1 | $0.80 | [RoboticsBD](https://store.roboticsbd.com/soldering-accessories-robotics-bangladesh/2612-premium-6040-sn-pb-tin-soldering-lead-with-rosin-20g-low-melting-point-robotics-bangladesh.html) | RoboticsBD |
+| Soldering Iron Stand | 1 | $1.18 | [RoboticsBD](https://store.roboticsbd.com/tools-accessories/1166-soldering-iron-stand-robotics-bangladesh.html) | RoboticsBD |
+| Mini Wire Cutter | 1 | $1.63 | [RoboticsBD](https://store.roboticsbd.com/tools-accessories/1170-wire-cutter-mini-robotics-bangladesh.html) | RoboticsBD |
+| | | | | |
+| **TOTAL** | | ~~$52.94~~ **~$53** | | |
+
 
