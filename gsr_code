@@ -1,0 +1,50 @@
+int gsr = 34;
+int gsr_val = 0;
+
+
+int baseline = 0;
+void setup() {
+  // put your setup code here, to run once:
+Serial.begin(9600);
+
+Serial.print("CALIBRATING DO NOT TOUCH!!");
+delay(2000);
+long sum = 0;
+for(int a = 0; a < 500; a++)
+{
+ gsr_val =analogRead(gsr);
+ sum = sum + gsr_val;
+ delay(5);
+}
+ baseline = sum / 500;
+ Serial.print("Baseline Found: ");
+ Serial.println(baseline);
+ Serial.print("Put on sensor now!!");
+ delay(10000);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+int sum_i = 0;
+
+for(int i = 0; i < 10; i++)
+{
+  gsr_val = analogRead(gsr);
+  sum_i = sum_i + gsr_val;
+delay(5);
+}
+
+int avg = sum_i/10;
+
+int gsrfinal = baseline - avg;
+
+if (gsrfinal > 0)
+{
+Serial.print("GSR: ");
+Serial.println(gsrfinal);
+delay(500);
+}
+
+}
