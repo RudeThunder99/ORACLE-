@@ -1,0 +1,56 @@
+#include "filter.h"
+#include <Wire.h>
+#include "MAX30105.h"
+
+MAX30105 sensor;
+
+\\ ratings
+const auto sampling_rate = sensor.SAMPLING_RATE_400SPS;
+const float samplingfreq = 400.0;
+
+\\ necessary thresholds
+const unsigned long fingerthres = 10000; \\minimum sensor reading needed to assign a finger detection
+const int cooldowntime = 500; \\to compensate for frequent finger wobbling
+const unsigned float beatdropthres = -2000; \\minimum beatdrop reading needed to assign a heartbeat drop
+
+\\Filtering
+const float lowpassfilter = 5.0; \\to only include cycles that happens 5 times per second
+const float highpassfilter = 0.5; \\to only include cycles that happens at least once in every 5 seconds
+\\ the readings that are outside of these ranges are considered as noise
+
+\\ averaging thresholds
+int avg_sample_pull = 5; \\ pull 5 samples at a time to determine the average
+int startingthres = 5;\\wait until 5 samples have been collected before averaging them
+
+void setup() {
+  // put your setup code here, to run once:
+
+Serial.begin(9600);
+Serial.print("Searching for sensor connectivity.");
+delay(400);
+Serial.print(".");
+delay(400);
+Serial.print(".");
+delay(400);
+Serial.print(".");
+delay(400);
+Serial.print(".");
+delay(400);
+
+if(Serial.begin() && sensor.setSAMPLING_RATE(sampling_rate))
+{
+  Serial.print("SENSOR INITIALISED")
+  delay(50);
+}
+else{ Serial.print("SENSOR MALFUNCTIONED, CHECK CONNECTION")
+      while(1);
+  }
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  auto sample = sensor.readSample(1000);
+Serial.println(sample);
+delay(200);
+}
